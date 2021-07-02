@@ -1,0 +1,35 @@
+/* Um seletor serve pra eu aplicar estilo em um objeto ou tipo de objeto */
+
+/* Por tipo de elemento: aplica o estilo pra todos os elementos de um determinado tipo */
+div{
+    font-weight: bold;
+}
+/*  Por classe: os elementos que tem uma classe serão afetados mas não afeta
+    os elementos do mesmo tipo que não tem essa classe. Classe é identificada no
+    css com um '.'*/
+.diver{
+    font-size: 20px;
+}
+/*  Por id: Aplica o estilo somente nos elementos que tem aquele id. Ids são identificados
+    com um '#' */
+#putzputz{
+    background-color: greenyellow;
+}
+/*  Por atributo personalizado: quando eu crio um atributo personalizado e quero aplicar um
+    estilo específico eu tenho que referenciar no css com o tipo de elemento e o nome do atributo
+    entre '[]' */
+div[meu-atributo]{
+    font-weight: bolder;
+    font-size: 50px;
+    color: darkgreen;
+}
+/*  Por pseudo-classe: ou seja, em um estado específico. Eu uso esse tipo de seletor quando eu
+    quero definir por exemplo o estilo de um elemento mas só quando ele é selecionado */
+#putzputz:hover{
+    background-color: blue;
+}
+/*  Por pseudo-elemento: quando eu quero selecionar somento uma parte do conteúdo de um elemento*/
+.diver::first-letter{
+    font-size: 60px;
+    color: yellow;
+}
