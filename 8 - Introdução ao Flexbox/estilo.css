@@ -1,0 +1,18 @@
+/* Flexbox serve pra organizar os elementos filhos de um container de forma flexível
+        de acordo com um eixo */
+
+.flex-div {
+    /* Organiza os item em flexbox */
+    display: flex;
+
+    /* Por padrão os flex items vão tentar se encaixar em uma só linha
+    com a propriedade wrap os itens quebram uma linha.*/
+    flex-wrap: wrap;
+
+    /* flex-direction: permite mudar o sentido do eixo */
+    flex-direction: row-reverse;
+}
+.divers {
+            border: 2px solid black;
+            width: 20px;
+}
