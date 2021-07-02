@@ -1,0 +1,42 @@
+.flex-div {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    /* align-items: Alinha os componentes em relação ao eixo cruzado (vertical) */
+
+    /* Ao centro: */
+    /*align-items: center; */
+
+    /* Ao topo do container */
+    /* align-items: baseline; */
+
+    /* Ao fim do container */
+    /* align-items: flex-end; */
+
+    /* justify-content: justifica os elementos, ele recebe alguns parâmetros */
+
+    /* space-between: distribui com espaços iguais somente entre os elementos */
+    /* justify-content: space-between; */
+
+    /* space-evenly: distribui com espaços iguais entre os elementos, e com relação
+    aos elementos e as margens*/
+    /* justify-content: space-evenly; */
+
+    /* space-around: aplica um espaço em volta de cada elemento */
+    justify-content: space-around;
+}
+.divers1 {
+    border: 2px solid black;
+    width: 20px;
+    height: 15px;
+}
+.divers2 {
+    border: 2px solid black;
+    width: 20px;
+    height: 20px;
+}
+.divers3 {
+    border: 2px solid black;
+    width: 20px;
+    height: 25px;
+}
