@@ -1,0 +1,15 @@
+/*  Existe uma hierarquia entre os seletores de acordo com sua especificidade
+    Quanto mais especifico é o seletor, maior a prioridade. */
+.diver{
+    color: blue;
+}
+/* Nesse caso, uma classe é mais específica que um tipo de elemento */
+div{
+    color: red;
+}
+/* O id é ainda mais específico, então tem uma prioridade maior */
+#issoeumid{
+    color:seagreen;
+}
+/* É possível comparar a hierarquia dos seletores nesse site:
+https://polypane.app/css-specificity-calculator/ */
