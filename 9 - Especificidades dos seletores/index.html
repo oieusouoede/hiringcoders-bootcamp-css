@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* Existe uma hierarquia entre os seletores de acordo com sua especificidade
+        Quanto mais especifico é o seletor, maior a prioridade. */
+       .diver{
+            color: blue;
+        }
+        /* Nesse caso, uma classe é mais específica que um tipo de elemento */
+        div{
+            color: red;
+        }
+        /* O id é ainda mais específico, então tem uma prioridade maior */
+        #issoeumid{
+            color:seagreen;
+        }
+        /* É possível comparar a hierarquia dos seletores nesse site:
+        https://polypane.app/css-specificity-calculator/ */
+    </style>
+</head>
+<body>
+    <div id="issoeumid" class="diver">
+       Alou alou alou alou 
+    </div>
+</body>
+</html>
